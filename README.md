@@ -13,10 +13,11 @@ GreedySuperstring(S)
 
 ```
 
-Hint: 
+*Hint*:
+
 Create also functions to:
 * calculate overlap between two sequences,
-* calculate matrix of overlaps among all sequences in S.
+* calculate matrix of overlaps among all sequences in *S*.
 
 
 <details>
