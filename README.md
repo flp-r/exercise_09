@@ -10,7 +10,6 @@ GreedySuperstring(S)
 4    Merge seq1 and seq2 and add the new sequence to S
 5    Remove seq1 and seq2 from S
 6  return S
-
 ```
 
 *Hint*:
