@@ -19,10 +19,13 @@
 GreedySuperstring(S)
 1   while length of S > 1
 2     overlapMat <- OverlapMatrix(S)
-3     seq1, seq2 <- Two sequences from S with the longest overlap
-4     Merge seq1 and seq2 and add the new sequence to S
-5     Remove seq1 and seq2 from S
-6   return S
+3     if max(overlapMat) = 0
+4       return S
+5     else
+6       seq1, seq2 ← Two sequences from S with the longest overlap
+7       Merge seq1 and seq2 and add the new sequence to S
+8       Remove seq1 and seq2 from S
+9   return S
 ```
 
 
