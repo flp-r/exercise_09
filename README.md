@@ -1,19 +1,19 @@
 # *De Novo* Genome Assembly
 
-## The Shortest Common Superstring
+## The Greedy Shortest Common Superstring
 ### Task
- * In R, implement a function `GreedySuperstring()` according to the pseudocode.
+* In R, implement a function `GreedySuperstring()` according to the pseudocode.
 
- * Input:
-   * a `DNAStringSet` of reads
+* Input:
+    * `S` A `DNAStringSet` of strings (reads).
 
 * Output:
-   * a `DNAStringSet` of the final contig
+   * `S` A `DNAStringSet` of the shortest common superstring (contig).
 
 > **Hint:** 
 > Create also functions:
->  * `Overlap()` to calculate overlap between two sequences
->  * `OverlapMatrix()` to create a matrix of overlaps among all sequences in `S`
+> * `Overlap()` to calculate overlap between two sequences.
+> * `OverlapMatrix()` to create a matrix of overlaps among all sequences in `S`.
 
 ```
 GreedySuperstring(S)
@@ -34,19 +34,19 @@ GreedySuperstring(S)
 <details>
 <summary>Basic Git settings</summary>
 
-> * Configure the Git editor
-> ```bash
-> git config --global core.editor notepad
-> ```
-> * Configure your name and email address
-> ```bash
-> git config --global user.name "Zuzana Nova"
-> git config --global user.email z.nova@vut.cz
-> ```
-> * Check current settings
-> ```bash
-> git config --global --list
-> ```
+>* Configure the Git editor
+>    ```bash
+>    git config --global core.editor notepad
+>    ```
+>* Configure your name and email address
+>    ```bash
+>    git config --global user.name "Zuzana Nova"
+>    git config --global user.email z.nova@vut.cz
+>    ```
+>* Check current settings
+>    ```bash
+>    git config --global --list
+>    ```
 >
 </details>
 
